@@ -1,0 +1,16 @@
+-
+  -
+    affichage: Nom*
+    name: nom
+    type: text
+    placeholder: Entrez votre nom
+  -
+    affichage: Email*
+    name: email
+    type: email
+    placeholder: Entrez l'email
+  -
+    affichage: Objet*
+    name: objet
+    type: text
+    placeholder: Entrez l'objet du message

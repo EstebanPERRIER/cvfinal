@@ -1,6 +1,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="test.css" />
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     </head>
 
     <body>
@@ -50,16 +51,26 @@
                 </section>  
 
                  
-                                                        
+                </section>
+
+                <section id="contact">
+                <?php include("php/contact.php"); ?>
+
+                   
+                </section>  
+                       
                
             
                 
 
-                <h1 id="Formation">Formation</h1>
+                
             
-                <h1 id="Contact">Contact</h1>
+                
             
             
         </main>
     </body> 
+    <footer>
+        ZEBI
+    </footer>
 </html>

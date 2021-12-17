@@ -118,7 +118,7 @@ h1
 #menu {
 	float:left;
 	width:300px;
-	height:4000px;
+	height:5000px;
 	background-color:#000000d3;
     margin-top: 0%;
 	}
@@ -262,4 +262,95 @@ h1
 #pstage{
   text-align:left;
   margin-left:950px;
+}
+
+/*//////////////////////////////////////
+              FORMULAIRE
+//////////////////////////////////////*/
+
+.boite {
+  position: relative;
+  display: flex;
+  background-color: #c7c7c7;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 980px;
+  padding: 30px 30px;
+ 
+}
+ 
+.gauche {
+  padding-right: auto;
+  padding: 0px 40px;
+  background-color: #000000;
+  text-align: left;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+ 
+.droite {
+  background-color: white;
+  padding: 35px;
+  font-size: small;
+  padding-top: 3px;
+}
+ 
+.barre {
+  height: 35px;
+  width: 580px;
+}
+ 
+.barre-grosse {
+  height: 175px;
+  width: 580px;
+   
+}
+ 
+input, textarea {
+  border: 1px solid #d9dee3;
+  border-radius: 5px;
+  color: #000000;
+  text-align: left;
+  font-size: 15px;
+  font-family: 'Noto Sans', sans-serif;
+  padding-left: 10px;
+}
+ 
+textarea {
+  padding: 10px;
+}
+ 
+.submit {
+  cursor: pointer;
+  padding: 13px 23px;
+  color: white;
+  background-color: #595959;
+  margin-top: 15px;
+  border-radius: 5px;
+  transition: all 0.5s ease 0s;
+ 
+}
+ 
+.submit:hover {
+  background-color: rgb(112, 112, 112);
+}
+ 
+h3 {
+  padding-top: 18px;
+  font-size: 15px;
+  font-weight: 500;
+}
+ 
+#formutitre {
+  padding-top: 50px;
+}
+ 
+#formutitre, #formupara{
+  padding-right:19%;
+  padding-left: px;
+}
+ 
+ 
+#formupara {
+  font-size: larger;
 }
